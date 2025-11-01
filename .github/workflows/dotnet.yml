@@ -13,4 +13,6 @@ jobs:
    steps:
     - name: code checkout
       uses: actions/checkout@v4
+    - name: build code
+      uses: actions/nuget@v4
  
